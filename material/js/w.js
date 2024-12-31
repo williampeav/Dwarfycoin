@@ -23,7 +23,7 @@ window.addEventListener('click', (event) => {
 });
 
 connectWalletBtn.addEventListener('click', () => {
-    statusMessage.textContent = 'Connecting to your TON wallet...';
+    statusMessage.textContent = 'Connecting to your wallet...';
 
     setTimeout(() => {
         statusMessage.textContent = 'oops try again something wents wrong!';
